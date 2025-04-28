@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville');
+
+p {
+  font-family: 'Libre Baskerville', serif;
+  color: white;
+}
+#row1 {
+  display: flex;
+  flex-direction: row;
+}
+
+#whathesaid {
+  font-size: 25px;
+  font-style: italic;
+  animation: hesaid 4s;
+  animation-duration: 4s;
+  margin: 50px;
+}
+
+@keyframes hesaid {
+  0% {
+    opacity: 0.0;
+    color: white;
+  }
+  
+  50% {
+    opacity: 0.5;
+    color: red;
+  }
+  }
+  100% {
+    opacity: 1;
+    color: black;
+  }
+  
+#whathesaid2 {
+  font-size: 30px;
+  animation-name: hesaid2;
+  animation-duration: 5s;
+  padding-top: 40px;
+  margin: 40px;
+}
+
+@keyframes hesaid2 {
+  0% {
+    opacity: 0.0;
+    color: white;
+  }
+  
+  70% {
+    opacity: 0.1;
+    color: red;
+  }
+  
+  100% {
+    opacity: 1;
+    color: black;
+  }
+  
+}
+
+#whathesaid3 {
+  font-size: 25px;
+  font-style: italic;
+  animation-name: hesaid;
+  animation-duration: 5s;
+  padding-top: 40px;
+  margin: 70px;
+}
+
+#whathesaid4 {
+  font-size: 20px;
+  font-style: italic;
+  animation-name: hesaid2;
+  animation-duration: 5s;
+  padding-top: 60px;
+  margin: 50px;
+}
+
+#row2 {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+  margin-left: 120px;
+}
+
+#whathesaid5 {
+  font-size: 30px;
+  animation-name: hesaid;
+  animation-duration: 5s;
+}
+
+#whathesaid6 {
+  font-size: 25px;
+  font-style: italic;
+  animation-name: hesaid2;
+  animation-duration: 5s;
+  padding-top: 40px;
+  margin: 70px;
+}
+
+#whathesaid7 {
+  font-size: 15px;
+  animation-name: hesaid;
+  animation-duration: 5s;
+  padding-top: 60px;
+  margin: 40px;
+}
+
+#whathesaid8 {
+  font-size: 25px;
+  font-style: italic;
+  animation-name: hesaid2;
+  animation-duration: 5s;
+  padding-top: 60px;
+  margin: 40px;
+}
+
+#row3 {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+}
+
+#whathesaid9 {
+  font-size: 30px;
+  font-style: italic;
+  animation-name: hesaid;
+  animation-duration: 5s;
+  padding-top: 40px;
+  margin: 40px;
+}
+
+
+#whathesaid10 {
+  font-size: 20px;
+  animation-name: hesaid2;
+  animation-duration: 5s;
+  padding-top: 40px;
+  margin: 60px;
+}
+
+#whathesaid11 {
+  font-size: 30px;
+  animation-name: hesaid;
+  animation-duration: 5s;
+  padding-top: 60px;
+  margin: 55px;
+}
+
+#whathesaid12 {
+  font-size: 25px;
+  font-style: italic;
+  animation-name: hesaid2;
+  animation-duration: 5s;
+  padding-top: 60px;
+  margin: 65px;
+}
+
+#whathedidnt {
+  font-size: 100px;
+  color: red;
+  animation-name: centerappear;
+  animation-duration: 10s;
+  position: absolute;
+  margin-top: -400px;
+  margin-left: 100px;
+}
+
+@keyframes centerappear {
+  
+  0% {
+    opacity: 0.0;
+    color: white;
+  }
+  
+  30% {
+   opacity: 0.0;
+    color: gray;
+  }
+  
+  70% {
+    opacity: 0.1;
+    color: black;
+  }
+  
+  100% {
+    opacity: 1;
+    color: red;
+  }
+   
+}
+
+#dot {
+  animation: dotanim 11.5s;
+}
+
+@keyframes dotanim {
+  0% {
+    opacity: 0.0;
+    color: white;
+  }
+  
+  30% {
+   opacity: 0.0;
+    color: white;
+  }
+  
+  90% {
+    opacity: 0.1;
+    color: gray;
+  }
+  
+  100% {
+    opacity: 1;
+    color: red;
+  }
+}
